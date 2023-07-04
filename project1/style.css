@@ -1,0 +1,178 @@
+/*nav : */
+nav{
+    display: flex;
+  justify-content:space-between ;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  margin-top: -300px;
+}
+#navlogo{
+    font-family:Impact ;
+    font-size: large;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+#navcontant{
+    display: flex;
+  
+}
+#navcontant > div{
+    margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+     font-size: small;
+}
+
+/* section1 : */
+#section1{
+    width: 100%;
+    display: flex;
+    margin-top: 300px;
+   
+}
+.imgcontaner{
+   width: 50%;
+   height: 380px;
+  margin-left: 350px;
+}
+.img0{
+    height: 360px;
+    width: 300px;
+    position:absolute;
+    margin-top: -15px;
+    margin-left: 40px;
+}
+
+.imgborder{
+    border: 5px solid rgb(179, 135, 142);
+    height: 360px;
+    width: 300px;
+}
+
+.greeting{
+    width: 80%;
+}
+.hello{
+    font-size: 30px;
+}
+
+.name{
+    font-size:15px ;
+}
+
+/*section2: */
+#section2{
+    background-color:  rgb(224, 193, 198);
+    width: 100% ;
+    height: 280px ;
+    font-size: xx-large;
+    padding-top: 100px;
+   
+}
+div.about{
+   font-size: 30px ;
+   margin-left: 250px;
+   
+}
+p.about{
+margin-left: 250px ;
+width: 850px;
+}
+
+/*section3*/
+#section3{
+background-color: beige;
+height: 300px;
+width: 100%;
+padding-left: 250px;
+display: flex;
+font-size: 30px;
+}
+
+.soft{
+
+}
+.count{
+
+}
+.technical{
+    padding-left: 300px;
+}
+.count2{
+   margin-top: 30px;
+    display:grid;
+    grid-template-columns: 60px  70px 60px 90px 70px;
+    gap: 0px;
+}
+.img1 , .img2  , .img3 {
+    height: 50px; width: 50px;
+}
+.img4{
+    height: 70px; width: 70px;
+    margin-top: -7px;
+}
+.img5{
+    height: 50px; width: 50px;
+    margin-top: 2px; 
+}
+ /*section4*/
+ #section4{
+    width: 100%;
+    background-color: rgb(228, 219, 219);
+   
+}
+ .projects{
+  margin-left: 600px;
+  font-size: xx-large;
+ 
+ }
+ .allprojects{
+    display: flex;
+    justify-content: space-around;
+ }
+.project1 , .project2  {
+    text-align: center;
+}
+.link{
+    font-size: large;
+    text-decoration: none;
+    color: #000;
+  
+}
+/*section5*/
+.ContactMe{
+    text-align: center;
+    font-size: xx-large;
+}
+.threeIcons{
+text-align: center;
+}
+.phone  {
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    padding-bottom: 100px;
+} 
+.gmail{
+    height: 120px;
+    width: 150px;
+    margin-left: 60px;
+    padding-bottom: 80px;
+   
+ }
+.github{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 40px;
+    margin-left: auto;
+}
+#section6{
+   text-align: center;
+   background-color: rgb(158, 117, 124);
+   padding-bottom: 20px;
+}
+.language{
+    font-size: xx-large;
+}
