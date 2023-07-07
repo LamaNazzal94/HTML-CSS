@@ -532,6 +532,9 @@ p.about {
         margin-right: 40px;
         font-size: small;
     }
+    .threeIcons{
+   margin-right: 20px;
+    }
 
     .phone {
         height: 20px;
