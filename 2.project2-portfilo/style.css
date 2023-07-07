@@ -26,7 +26,17 @@
     margin-left: 50px;
     padding-top: 25px;
     font-size: 15px;
+  
 }
+.navabout ,.navskills ,.navproject , .navlang , .navcon , .naved{
+      text-decoration: none;
+        color: #000;
+}
+
+
+
+
+
 
 /* section1 : */
 #section1 {
@@ -71,6 +81,37 @@
     height: 70px;
     font-size: 20px;
 }
+
+
+/*education*/
+
+#edsection{
+    display: flex;
+    border: 2px solid rgb(196, 173, 180);
+    justify-content: space-between;
+}
+.titedu{
+    font-size: x-large;
+    margin-left: 100px;
+    padding-top: 25px;
+}
+.uniinfo{
+  font-size: large;
+    margin-left: 0px;
+    padding-top: 40px;  
+}
+
+.eduimg{
+    margin-right: 600px;
+    padding-top: 25px;  
+}
+.yuimg{
+    height: 150px;
+}
+
+
+
+
 
 /*section2: */
 #section2 {
@@ -366,7 +407,26 @@ p.about {
         font-size: 18px;
     }
 
+/*education*/
 
+
+.titedu{
+    font-size: large;
+    padding-top: 10px;
+}
+.uniinfo{
+  font-size: 18px;
+    margin-left: 0px;
+    padding-top: 10px;  
+}
+
+.eduimg{
+    margin-right: 50px;
+    padding-top: 25px;  
+}
+.yuimg{
+    height: 120px;
+}
     /*section2: */
     #section2 {
         background-color: rgb(250, 239, 239);
@@ -659,6 +719,27 @@ p.about {
 
     }
 
+
+    /*education*/
+
+
+.titedu{
+    font-size: 15px;
+    margin-left: 15px;
+}
+.uniinfo{
+  font-size: 15px;
+  
+    padding-top: 15px;  
+}
+
+.eduimg{
+    margin-right: 0px;
+    padding-top: 25px;  
+}
+.yuimg{
+    height: 100px;
+}
     /*section3*/
     #section3 {
         height: 300px;
